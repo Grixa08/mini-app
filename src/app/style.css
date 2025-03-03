@@ -812,6 +812,34 @@ input:checked + .slider:before {
 
 /* Улучшаем адаптивность для форума и конкурсов */
 @media (max-width: 480px) {
+    .achieve-progress img{
+        width: 90px;
+    }
+    .achieve-images img{
+        width: 90px;
+        margin-top: 20px;
+    }
+    .achievement-right img{
+        width: 80px;
+    }
+    .achievement-info {
+        margin-left: -3%;
+    }
+    .achievement-info h3{
+        font-size: 15px;
+    }
+    .achievement-info p{
+        font-size: 14px;
+    }
+    .achievement-rating .rate img{
+        width: 25px;
+    }
+    .achievement-rating .rate p{
+        font-size: 16px;
+    }
+    .achievement-rating span{
+        font-size: 13px;
+    }
     .forum-screen {
         padding: 10px;
     }
@@ -868,7 +896,10 @@ input:checked + .slider:before {
 /* Улучшаем адаптивность для достижений */
 @media (max-width: 480px) {
     .achieve-card {
-        padding: 15px;
+        padding: 20px 23px 20px 10px;
+    }
+    .achievements-list .achievement-item {
+        width: 96%;
     }
     
     .achievements-list {
